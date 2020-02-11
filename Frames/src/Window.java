@@ -1,21 +1,33 @@
 import javax.swing.*;
-import javax.swing.border.TitledBorder;
 import java.awt.*;
 
 public class Window extends JFrame {
 
-    JLabel nameLable = new JLabel("Amir Ram");
+    JLabel nameLabel = new JLabel("");
+    JTextField numberTextField = new JTextField(15);
+    ButtonPane pane = new ButtonPane(new FlowLayout(), new Dimension(270, 280), nameLabel);
 
     public Window() {
         super("Custom JFrame");
-        this.setSize(new Dimension(400, 300));
-        nameLable.setSize(new Dimension(120, 50));
-        this.setDefaultCloseOperation(3);
-        nameLable.setToolTipText("NAME");
-        nameLable.setBorder(new TitledBorder("MY NAME IS..."));
-        this.add(nameLable);
+        this.setFont(new Font("SourceCodePro", 1, 12));
+        this.setSize(new Dimension(270, 360));
         this.setLayout(new FlowLayout());
-        this.pack();
+        this.setResizable(false);
+        this.setUndecorated(true);
+        this.setFocusable(false);
+
+        numberTextField.setEditable(false);
+        numberTextField.setPreferredSize(new Dimension(270, 30));
+        numberTextField.setText("HELLO");
+        numberTextField.setFont(new Font("SourceCodePro", 5, 12));
+
+        nameLabel.setPreferredSize(new Dimension(270, 30));
+        nameLabel.setToolTipText("Results");
+
+        this.setDefaultCloseOperation(3);
+        this.add(nameLabel);
+        this.add(numberTextField);
+        this.add(pane);
         this.setVisible(true);
 
     }
