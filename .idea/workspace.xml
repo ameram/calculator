@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="808c8906-2ff4-418c-bd87-b115e9665d4b" name="Default Changelist" comment="" />
+    <list default="true" id="808c8906-2ff4-418c-bd87-b115e9665d4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frames/Frames.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frames/src/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XeWnuwlYnl3EscBTvbb52AcaDR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,12 +33,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Window">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="GUITools" />
@@ -35,8 +47,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Window" />
+      <module name="Frames" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Window" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -53,5 +73,43 @@
       <updated>1581407210858</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1581407761118">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state x="653" y="239" key="#com.intellij.ide.util.MemberChooser/0.23.1680.984@0.23.1680.984" timestamp="1581407761118" />
+    <state x="561" y="192" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1581407382320">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state x="561" y="192" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1680.984@0.23.1680.984" timestamp="1581407382320" />
+    <state width="1638" height="266" key="GridCell.Tab.0.bottom" timestamp="1581408239094">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state width="1638" height="266" key="GridCell.Tab.0.bottom/0.23.1680.984@0.23.1680.984" timestamp="1581408239094" />
+    <state width="1638" height="266" key="GridCell.Tab.0.center" timestamp="1581408239093">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state width="1638" height="266" key="GridCell.Tab.0.center/0.23.1680.984@0.23.1680.984" timestamp="1581408239093" />
+    <state width="1638" height="266" key="GridCell.Tab.0.left" timestamp="1581408239093">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state width="1638" height="266" key="GridCell.Tab.0.left/0.23.1680.984@0.23.1680.984" timestamp="1581408239093" />
+    <state width="1638" height="266" key="GridCell.Tab.0.right" timestamp="1581408239094">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state width="1638" height="266" key="GridCell.Tab.0.right/0.23.1680.984@0.23.1680.984" timestamp="1581408239094" />
+    <state x="494" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1581407336610">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state x="494" y="349" key="com.intellij.ide.util.TipDialog/0.23.1680.984@0.23.1680.984" timestamp="1581407336610" />
+    <state x="217" y="118" key="new project wizard" timestamp="1581407409537">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state x="217" y="118" key="new project wizard/0.23.1680.984@0.23.1680.984" timestamp="1581407409537" />
+    <state x="505" y="237" key="run.anything.popup" timestamp="1581408147868">
+      <screen x="0" y="23" width="1680" height="984" />
+    </state>
+    <state x="505" y="237" key="run.anything.popup/0.23.1680.984@0.23.1680.984" timestamp="1581408147868" />
   </component>
 </project>
